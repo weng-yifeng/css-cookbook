@@ -12,5 +12,5 @@ CSS 常用的实践用例，内容包括：CSS、CSS3。
 4. [固定到底部的布局技巧](fixed_on_the_end.md)
 5. [行内元素布局技巧](docs/layout_by_inline_block.md)
 6. [绘制关闭按钮 ‘X’](docs/drawing_close_btn.md)
-
+7. 文字间距控制
 
