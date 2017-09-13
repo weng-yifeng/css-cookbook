@@ -15,6 +15,6 @@ CSS 常用的实践用例，内容包括：CSS、CSS3。
 7. [绘制关闭按钮 ‘X’](docs/drawing_close_btn.md)
 8. 文字间距控制
 9. font-size 与 height 的细节
-10. 灵活使用浏览器存储 sessionStorage、localStorage
-11. rem 移动适配布局
+10. rem 移动适配布局
+11. PC端与移动端的视口问题
 
