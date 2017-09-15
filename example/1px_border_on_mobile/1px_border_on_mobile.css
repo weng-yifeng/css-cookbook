@@ -1,0 +1,46 @@
+
+h3 {
+	text-align: center;
+}
+
+.label {
+	display: block;
+	width: 80%;
+	margin: 20px auto 10px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.btn {
+	display: block;
+	width: 80%;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: #FFF68F;
+	text-align: center;
+	font-size: 24px;
+}
+
+.btn-1 {
+	border: 1px solid #999;
+	border-radius: 8px;
+}
+
+.btn-2 {
+	position: relative;
+	border-radius: 8px;
+}
+
+.btn-2::after {
+	content: ' ';
+	width: calc(200% - 2px);
+	height: calc(200% - 2px);
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	border: 1px solid #000;
+	border-radius: 16px;
+	transform: scale(0.5);
+}
