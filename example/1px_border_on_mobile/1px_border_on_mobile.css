@@ -21,6 +21,7 @@ h3 {
 	background-color: #FFF68F;
 	text-align: center;
 	font-size: 24px;
+	overflow: hidden;
 }
 
 .btn-1 {
@@ -35,11 +36,12 @@ h3 {
 
 .btn-2::after {
 	content: ' ';
-	width: calc(200% - 2px);
-	height: calc(200% - 2px);
+	width: 200%;
+	height: 200%;
 	position: absolute;
 	top: -50%;
 	left: -50%;
+	box-sizing: border-box;
 	border: 1px solid #000;
 	border-radius: 16px;
 	transform: scale(0.5);
