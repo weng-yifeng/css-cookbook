@@ -11,6 +11,12 @@ h3 {
 	text-align: justify;
 }
 
+.about-link {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
 .btn {
 	display: block;
 	width: 80%;
