@@ -4,18 +4,18 @@
 
 通过 CSS 设置的 1px 的边框，在移动端会显示为 2 像素的宽度，这里提供一种技巧，采用 CSS3 的缩放来实现。
 
-对于为什么在移动端会像素为 2 像素（有的是 3 像素）的宽度，请查看这篇文章：
+对于为什么在移动端会显示为 2 像素（有的是 3 像素）的宽度，请查看这篇文章：
 
 [理解PC端和移动端的基本像素单位](/docs/pc_mobile_pixel_unit.md)
 
-本例中，以 dpr 为 2 的屏幕（ppi 小于 480 的移动设备）为例，如果要同时兼容 dpr 为 3 的屏幕，那么可以通过 js 来选择需要缩放的比例。这里只讲 CSS 的实现。
+本例中，以 dpr 为 2 的屏幕（即 ppi 小于 480 的移动设备）为例，如果要同时兼容 dpr 为 3 的屏幕，那么可以通过 js 来选择需要缩放的比例。这里只讲 CSS 的实现。
 
 ## HTML
 
 ```html
 <!--使用 border 为 1px 的样式-->
 <div class="btn btn-1">test button 1</div>
-<!--使用 scalc 缩放后 的样式-->
+<!--使用 scalc 缩放后的样式-->
 <div class="btn btn-2">test button 2</div>
 ```
 
@@ -117,7 +117,9 @@ demo 路径：`/example/1px_border_on_mobile`
 
 ##  查看效果
 
-请扫描以下二维码查看在移动端显示的效果：
+请点击链接：[点击这里](https://wengyifeng-hl.github.io/css-cookbook/example/1px_border_on_mobile/index.html)
+
+或扫描以下二维码查看在移动端显示的效果：
 
 ![移动端查看效果](../resources/1px_border_on_mobile/1px_border_on_mobile.png)
 

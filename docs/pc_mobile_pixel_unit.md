@@ -31,17 +31,17 @@ ppi 表示一英寸内的像素密度。
 
 因为这里的 4 英寸是指一个屏幕的对角长度，所以我们先计算这个屏幕的对角有多少像素（dp）：
 
-$$\sqrt{ 720^2 + 1080^2 }$$
+![f1](../resources/pc_mobile_pixel_unit/formula_1.png)
 
 再把这个值除以英寸，就得到了每英寸的像素个数，即像素密度。
 
-$$\frac{\sqrt{ 720^2 + 1080^2 }}{4} = 324.5 ppi$$ 
+![f2](../resources/pc_mobile_pixel_unit/formula_2.png)
 
 ## px 与 dp 的关系
 
 Android 规定 dp 与 160ppi 下的1px 是相等。
 
-即：$1px = \frac{ppi}{160} dp$
+即：![f3](../resources/pc_mobile_pixel_unit/formula_3.png)
 
 比如 320ppi 的移动端屏幕，就是：1px = 2dp
 
@@ -67,4 +67,4 @@ dpr（devicePixelRatio）= dp / px
 
 面对这个问题，看了上面的说明应该就明白为什么了，1px 的 css 像素在 320ppi 的移动端中显示为 2dp，因此看到的是两个像素。
 
-所以在 H5 的移动开发中，我们所写的 1px 的样式在移动端就会显示出更大的像素，而 px 又是 css 的最小单位，因此这个问题似乎得不到解决。好在，CSS3 提供了缩放属性，通过 transform 的 scale 进行缩放 0.5 倍或者 0.33 倍，从而达到接近 1px 的效果。
+所以在 H5 的移动开发中，我们所写的 1px 的样式在移动端就会显示出更大的像素，而 px 又是 css 的最小单位，因此这个问题似乎得不到解决。好在，CSS3 提供了缩放属性，通过 transform 的 scale 进行缩放 0.5 倍或者 0.33 倍，从而达到接近 1像素的效果。
