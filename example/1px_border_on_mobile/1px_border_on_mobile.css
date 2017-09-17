@@ -21,7 +21,6 @@ h3 {
 	background-color: #FFF68F;
 	text-align: center;
 	font-size: 24px;
-	overflow: hidden;
 }
 
 .btn-1 {
@@ -45,4 +44,5 @@ h3 {
 	border: 1px solid #000;
 	border-radius: 16px;
 	transform: scale(0.5);
+	pointer-events: none;
 }
