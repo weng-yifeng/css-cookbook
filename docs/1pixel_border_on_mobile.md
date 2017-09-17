@@ -35,7 +35,7 @@
 }
 ```
 
-对于 button 1，使用 `border: 1px solid #999;` ：
+对于 button 1，使用 `border: 1px solid #000` ：
 
 ```css
 .btn-1 {
