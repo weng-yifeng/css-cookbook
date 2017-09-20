@@ -84,5 +84,5 @@ demo 路径：`/example/1pixel_line_on_mobile`
 
 或扫描以下二维码查看在移动端显示的效果：
 
-（待补充）
+![二维码](../resources/1pixel_line_on_mobile/1pixel_line_on_mobile.png)
 
